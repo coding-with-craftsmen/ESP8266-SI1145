@@ -4,7 +4,6 @@
 #include <Adafruit_MQTT_Client.h>
 
 #include <Wire.h>
-#include <Adafruit_Sensor.h>
 #include <Adafruit_SI1145.h>
  
 /************************* WiFi Access Point *********************************/
@@ -14,17 +13,11 @@
  
 /************************* MQTT Broker Setup *********************************/
  
-//const int MQTT_PORT = 1883;
-//const char MQTT_SERVER[] PROGMEM    = "192.168.0.61";
-//const char MQTT_CLIENTID[] PROGMEM  = "ESP-PUBLISHER-SERVICE";
-//const char MQTT_USERNAME[] PROGMEM  = "********";
-//const char MQTT_PASSWORD[] PROGMEM  = "********";
-
-const int MQTT_PORT = 15948;
-const char MQTT_SERVER[] PROGMEM    = "?????";
+const int MQTT_PORT = 1883;
+const char MQTT_SERVER[] PROGMEM    = "192.168.0.61";
 const char MQTT_CLIENTID[] PROGMEM  = "ESP-PUBLISHER-SERVICE";
-const char MQTT_USERNAME[] PROGMEM  = "?????";
-const char MQTT_PASSWORD[] PROGMEM  = "?????";
+const char MQTT_USERNAME[] PROGMEM  = "********";
+const char MQTT_PASSWORD[] PROGMEM  = "********";
  
 // Create an ESP8266 WiFiClient class to connect to the MQTT server.
 WiFiClient client;
