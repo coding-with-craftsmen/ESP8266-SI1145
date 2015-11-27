@@ -1,4 +1,4 @@
-# esp8266-si1145
+# ESP8266-SI1145
 
 This is an arduino example project for the ESP8266 MQTT Hackathon<br>
 The example uses the SI1145 Sensor
