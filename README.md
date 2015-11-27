@@ -6,6 +6,8 @@ The example uses the SI1145 Sensor
 Connect pin 4 to the SDA and pin 5 to the SCL pins of the SI1145 sensor.
 The VIN should be connected to the 3V and the ground to the ground.
 
+![My image](https://github.com/coding-with-craftsmen/ESP8266-SI1145/blob/master/ESP8266-SI1145_bb.jpg)
+
 The libraries needed to run this project are:
 
 ESP8266WiFi<br>
