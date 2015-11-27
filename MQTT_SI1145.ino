@@ -4,7 +4,6 @@
 #include <Adafruit_MQTT_Client.h>
 
 #include <Wire.h>
-#include <Adafruit_Sensor.h>
 #include <Adafruit_SI1145.h>
  
 /************************* WiFi Access Point *********************************/
